@@ -1,0 +1,30 @@
+##############################
+## Ignore-files             ##
+##############################
+*.el~
+*.elc
+.*~
+*~
+
+!init.el
+!custom.el
+ 
+##############################
+## Ignore-folders           ##
+##############################
+anaconda-mode/
+auto-save-list/
+cnfonts/
+elpa/
+elpy/
+eshell/
+server/
+transient/
+url/
+
+!lisp/
+!snippets/
+
+##############################
+## empty for now            ##
+##############################

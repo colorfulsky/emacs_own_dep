@@ -66,7 +66,7 @@
       :hook
       (after-init . org-roam-mode)
       :custom
-      (org-roam-directory "~/daily-nt")
+      (org-roam-directory "D://Program Files (x86)//org_daily")
 	  :config
 	  (setq  org-roam-db-location "~/.emacs.d/org-roam.db"
 	   org-roam-completion-system 'ivy)
@@ -150,5 +150,5 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
 
-  (setq org-agenda-files '("D:\\Program Files (x86)\\org_daily\\org_daily.org"
-                          ))
+;;(setq org-agenda-files '("D:\\Program Files (x86)\\org_daily\\org_daily.org"
+;;                          ))
